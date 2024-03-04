@@ -1,0 +1,35 @@
+.question{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 148, 104);
+    font-size: 30px;
+    
+}
+.options{
+    display: flex;
+    gap: 30px;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    background-color: rgb(114, 220, 226);
+}
+
+#yes{
+    left:44vw;
+}
+#no{
+    left:53vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #yes{
+        left: 30vw;
+    }
+  }
